@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Glowing Blue Laser scanning line -->
+    <path
+        android:pathData="M22,50L86,50"
+        android:strokeColor="#FF00E5FF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+
+    <!-- Glasses Frame (Left Lens) -->
+    <path
+        android:pathData="M35,54m-12,0a12,12 0 1,1 24,0a12,12 0 1,1 -24,0"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:fillColor="#15FFFFFF" />
+
+    <!-- Glasses Frame (Right Lens) -->
+    <path
+        android:pathData="M73,54m-12,0a12,12 0 1,1 24,0a12,12 0 1,1 -24,0"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:fillColor="#15FFFFFF" />
+
+    <!-- Bridge -->
+    <path
+        android:pathData="M47,54 L61,54"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+
+    <!-- Left Temple Arm -->
+    <path
+        android:pathData="M23,54 L12,54 C9,54 7,52 7,49"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+
+    <!-- Right Temple Arm -->
+    <path
+        android:pathData="M85,54 L96,54 C99,54 101,52 101,49"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+
+    <!-- Laser scanning particle highlights -->
+    <path
+        android:pathData="M35,54 L35,50M73,54 L73,50"
+        android:strokeColor="#FF00E5FF"
+        android:strokeWidth="2" />
+        
+    <!-- Spatial scan target ticks -->
+    <path
+        android:pathData="M54,24 L54,18M54,84 L54,90M24,54 L18,54M84,54 L90,54"
+        android:strokeColor="#FF00FF9D"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+
+</vector>

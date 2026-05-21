@@ -1,0 +1,6 @@
+{
+  "name": "Atlas",
+  "description": "Spatial intelligence engine for smart glasses. Atlas acts as your real-time multimodal walking guide to translates signs, analyze surroundings, and converse with high-yield context.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
